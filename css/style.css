@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#gallery {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 22%;
+}
+
+#gallery>li {
+    list-style-type: none;
+    flex-basis: 32%;
+}
+
+#counter,
+#name-input,
+#text {
+    margin-bottom: 30px;
+}
+
+#validation-input {
+    border: 3px solid #bdbdbd;
+    margin-bottom: 30px;
+}
+
+#validation-input.valid {
+    border-color: #4caf50;
+}
+
+#validation-input.invalid {
+    border-color: #f44336;
+}
